@@ -5,9 +5,13 @@ Control you AWS EC2 by just using your voice
 
 Requirements:
 python3
+
 SpeechRecognition
+
 boto3
+
 gtts
+
 pyaudio
 
 
