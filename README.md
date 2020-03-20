@@ -3,7 +3,7 @@ Control you AWS EC2 by just using your voice
 
 ------Currently Works Better On Windows, Have Many bugs for Linux-------
 
-Requirements:
+#Requirements:
 
 python3
 
@@ -16,7 +16,7 @@ gtts
 pyaudio
 
 
-Guide:
+#Guide:
 
 ->enter you aws account access keys in "cred.json" file.
 
