@@ -70,7 +70,6 @@ python aws_voice.py
 
 ## Demo Video
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=BosDrdC1IdA
-" target="_blank"><img src="http://img.youtube.com/vi/BosDrdC1IdA/0.jpg" 
-alt="Thumbnail" width="1280" height="720" border="10" /></a>
+" target="_blank">Click to see Demo</a>
 
 [IAM Management Console]: https://console.aws.amazon.com/iam/home#/users
