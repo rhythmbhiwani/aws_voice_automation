@@ -8,7 +8,6 @@ import time
 
 with open('cred.json') as cred:
 	keys = json.load(cred)
-	print(keys)
 	aws_access_key_id=keys['aws_access_key_id']
 	aws_secret_access_key=keys['aws_secret_access_key']
 	region_name=keys['region_name']
