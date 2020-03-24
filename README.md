@@ -57,10 +57,17 @@ Step 4
 
 To Run the program
 
+#### On Windows
+
 Open CMD and navigate to project directory and run the following command
 ```
-python aws_voice.py
+python "aws_voice - windows.py"
 ```
+
+#### On Linux
+Open terminal and navigate to project directory and run the following command
+```
+python "aws_voice - linux.py"
 
 ## Developers
 
