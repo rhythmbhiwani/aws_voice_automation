@@ -32,7 +32,7 @@ pip install PyAudio‑0.2.11‑cp38‑cp38‑win32.whl
 
 ### Setting up
 
-A step by step series of examples that tell you how to get a development env running
+A step by step series that tell you how to get a development env running
 
 Step 1
 > Visit [IAM Management Console] and add **New User**
