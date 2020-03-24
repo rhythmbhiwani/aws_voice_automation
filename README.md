@@ -68,6 +68,7 @@ python "aws_voice - windows.py"
 Open terminal and navigate to project directory and run the following command
 ```
 python "aws_voice - linux.py"
+```
 
 ## Developers
 
