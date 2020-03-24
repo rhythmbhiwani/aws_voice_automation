@@ -23,20 +23,25 @@ pyaudio
 ->run "aws_voice.py" using command promp
 
 
-# Project Title
+# AWS EC2 Voice Automation
 
-One Paragraph of project description goes here
+Control states of your EC2 instances using voice.
 
 ## Getting Started
 
+>The system currently works on windows system without bugs.
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Install the required libraries
 
 ```
-Give examples
+pip install boto3
+pip install pyaudio
+pip install SpeechRecognition
+pip install gtts
+pip install playsound
 ```
 
 ### Installing
