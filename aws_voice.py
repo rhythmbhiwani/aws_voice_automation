@@ -21,6 +21,7 @@ image_id = None
 instance_type='t2.micro'
 minCount=1
 maxCount=1
+audioCount = 1
 
 def check_keypair():
 	keys_list = []
@@ -112,10 +113,12 @@ def play_audio(data):
 		playsound.playsound('connect.mp3', True)
 	else:
 		print(data)
+		global audioCount
 		myobj = gTTS(text=data, lang=language, slow=False)
-		myobj.save("audio_to_play.mp3")
-		playsound.playsound('audio_to_play.mp3', True)
-		os.remove('audio_to_play.mp3')
+		myobj.save("audio"+str(audioCount)+".mp3")
+		playsound.playsound("audio"+str(audioCount)+".mp3", True)
+		os.remove("audio"+str(audioCount)+".mp3")
+		audioCount+=1
 
 def get_input(data):
 	with sr.Microphone() as source:
