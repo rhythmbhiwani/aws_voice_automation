@@ -36,9 +36,12 @@ A step by step series of examples that tell you how to get a development env run
 
 Step 1
 > Visit [IAM Management Console] and add **New User**
-Give it **Programmatic access** and click Next
-Set __AdministratorAccess__ under __Attach existing policies directly__ (Or according to needs)
-Click next and create new user
+
+>Give it **Programmatic access** and click Next
+
+>Set __AdministratorAccess__ under __Attach existing policies directly__ (Or according to needs)
+
+>Click next and create new user
 
 Step 2
 >Download and save the **credentials.csv** file to get *access key id* and *secret access key*
@@ -64,5 +67,10 @@ python aws_voice.py
 [Riya Soni] (https://www.linkedin.com/in/riya-soni-3bb5111a0/)
 
 [Rhythm Bhiwani] (https://www.linkedin.com/in/rhythm-bhiwani/)
+
+## Demo Video
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=BosDrdC1IdA
+" target="_blank"><img src="http://img.youtube.com/vi/BosDrdC1IdA/0.jpg" 
+alt="Thumbnail" width="240" height="180" border="10" /></a>
 
 [IAM Management Console]: https://console.aws.amazon.com/iam/home#/users
