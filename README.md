@@ -64,13 +64,13 @@ python aws_voice.py
 
 ## Developers
 
-[Riya Soni] (https://www.linkedin.com/in/riya-soni-3bb5111a0/)
+[Riya Soni](https://www.linkedin.com/in/riya-soni-3bb5111a0/)
 
-[Rhythm Bhiwani] (https://www.linkedin.com/in/rhythm-bhiwani/)
+[Rhythm Bhiwani](https://www.linkedin.com/in/rhythm-bhiwani/)
 
 ## Demo Video
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=BosDrdC1IdA
 " target="_blank"><img src="http://img.youtube.com/vi/BosDrdC1IdA/0.jpg" 
-alt="Thumbnail" width="240" height="180" border="10" /></a>
+alt="Thumbnail" width="1280" height="720" border="10" /></a>
 
 [IAM Management Console]: https://console.aws.amazon.com/iam/home#/users
