@@ -1,28 +1,3 @@
-# aws_voice_automation
-Control you AWS EC2 by just using your voice
-
-------Currently Works Better On Windows, Have Many bugs for Linux-------
-
-#Requirements:
-
-python3
-
-SpeechRecognition
-
-boto3
-
-gtts
-
-pyaudio
-
-
-#Guide:
-
-->enter you aws account access keys in "cred.json" file.
-
-->run "aws_voice.py" using command promp
-
-
 # AWS EC2 Voice Automation
 
 Control states of your EC2 instances using voice.
@@ -30,6 +5,7 @@ Control states of your EC2 instances using voice.
 ## Getting Started
 
 >The system currently works on windows system without bugs.
+
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
@@ -38,80 +14,53 @@ Install the required libraries
 
 ```
 pip install boto3
-pip install pyaudio
 pip install SpeechRecognition
 pip install gtts
 pip install playsound
 ```
+Install PyAudio
+```
+pip install pyaudio
+```
+If the above installation gives error, download compatible python library from the link below:
+[PyAudio](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio)
+Run CMD and go to the download location of the file and run the command(File name may differ).
+```
+pip install PyAudio‑0.2.11‑cp38‑cp38‑win32.whl
+```
 
-### Installing
+### Setting up
 
 A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
+Step 1
+> Visit [IAM Management Console] and add **New User**
+Give it **Programmatic access** and click Next
+Set __AdministratorAccess__ under __Attach existing policies directly__ (Or according to needs)
+Click next and create new user
 
+Step 2
+>Download and save the **credentials.csv** file to get *access key id* and *secret access key*
+
+Step 3
+>Clone the repository on your local system
+
+Step 4
+>Copy and paste the *access key id* and *secret access key* into the **cred.json** file in the project directory
+
+
+## Running the system
+
+To Run the program
+
+Open CMD and navigate to project directory and run the following command
 ```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
+python aws_voice.py
 ```
 
-## Deployment
+## Developers
 
-Add additional notes about how to deploy this on a live system
+[Riya Soni] (https://www.linkedin.com/in/riya-soni-3bb5111a0/)
+[Rhythm Bhiwani] (https://www.linkedin.com/in/rhythm-bhiwani/)
 
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+[IAM Management Console]: https://console.aws.amazon.com/iam/home#/users
