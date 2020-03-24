@@ -22,8 +22,9 @@ Install PyAudio
 ```
 pip install pyaudio
 ```
-If the above installation gives error, download compatible python library from the link below:
+If the above installation gives error, download compatible python library from the link :
 [PyAudio](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio)
+
 Run CMD and go to the download location of the file and run the command(File name may differ).
 ```
 pip install PyAudio‑0.2.11‑cp38‑cp38‑win32.whl
@@ -61,6 +62,7 @@ python aws_voice.py
 ## Developers
 
 [Riya Soni] (https://www.linkedin.com/in/riya-soni-3bb5111a0/)
+
 [Rhythm Bhiwani] (https://www.linkedin.com/in/rhythm-bhiwani/)
 
 [IAM Management Console]: https://console.aws.amazon.com/iam/home#/users
