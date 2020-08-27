@@ -1,0 +1,4 @@
+boto3
+SpeechRecognition
+gtts
+playsound
