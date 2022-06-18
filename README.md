@@ -72,7 +72,7 @@ python "aws_voice - linux.py"
 
 [Riya Soni](https://www.linkedin.com/in/riya-soni-3bb5111a0/)
 
-[Rhythm Bhiwani](https://www.linkedin.com/in/rhythm-bhiwani/)
+[Rhythm Bhiwani](https://www.linkedin.com/in/rhythmbhiwani/)
 
 ## Demo Video
 
