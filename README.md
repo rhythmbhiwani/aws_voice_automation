@@ -75,7 +75,8 @@ python "aws_voice - linux.py"
 [Rhythm Bhiwani](https://www.linkedin.com/in/rhythm-bhiwani/)
 
 ## Demo Video
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=BosDrdC1IdA
-" target="_blank">Click to see Demo</a>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BosDrdC1IdA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 [IAM Management Console]: https://console.aws.amazon.com/iam/home#/users
