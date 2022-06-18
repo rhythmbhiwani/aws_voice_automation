@@ -77,6 +77,7 @@ python "aws_voice - linux.py"
 ## Demo Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BosDrdC1IdA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Demo Video](https://img.youtube.com/vi/BosDrdC1IdA/0.jpg)](https://www.youtube.com/watch?v=BosDrdC1IdA)
 
 
 [IAM Management Console]: https://console.aws.amazon.com/iam/home#/users
